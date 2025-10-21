@@ -1,0 +1,12 @@
+Destructor:
+
+
+Automatically objects removes ás by default compiler made it 
+but for static only 
+
+
+
+now for deleting dynamic memory as we create it 
+by new keyword so to delete it 
+have to use delete ptr 
+ptr will not delete but ptr pointing that memory will be deleted
