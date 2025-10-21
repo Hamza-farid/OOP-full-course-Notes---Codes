@@ -1,0 +1,27 @@
+Inheritence:
+- code reuseability
+class A (parent,base)
+   |
+   |
+   |
+class B (child,derived)
+
+
+Types:
+-single {base->derived} person->student
+- multi-level inheritence
+ {parent->child-> child} person->student->grad-student
+
+- Multiple Inheritence
+parentA + parentB ----> child
+
+i.e class student     class teacher 
+             TAs(passed out phd holder guys who come to give lecture)
+
+- hierarchical 
+person (base )     student, teacher(derived)
+- hybrid 
+person ->strudent->teacher->tA
+           |_________________|
+           |
+          Grad student
