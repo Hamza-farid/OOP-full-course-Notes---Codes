@@ -1,0 +1,4 @@
+1)Encapsulation — bundle data and methods; restrict direct access to internals (use getters/setters or private attributes).
+2)Abstraction — expose only necessary interfaces; hide implementation details (abstract/base classes or interfaces).
+3)Inheritance — create new classes from existing ones to reuse and extend behavior.
+4)Polymorphism — same interface, different implementations (method overriding or duck typing).
