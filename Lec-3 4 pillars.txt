@@ -1,0 +1,62 @@
+4 pillar
+constructor
+shallow and deepo copy
+-------------------------------------
+1 Encapsulation:
+data/properties + member functions
+ [and made a capsule which is *class*]
+
+
+2 Abstraction
+hiding all unnecessary details & showing only important parts
+-access modifiers
+Now   abstract classA{}; 
+it become blueprint of diff classes as it is abstract can not
+make object of the abstract class
+- it is made only for inheritence
+- blueprint for other classes 
+
+
+3 inheritence
+
+
+
+4 polymorphism
+- mulitple forms ,obj to act in diff forms i.e constructor overloadeing
+- depending upon the context 
+i.e constructor one is by default one is with parameter 
+
+1-compile time polymorphism[contructor,function overloading]
+2-runtime polymorphism[dynamic polimorphism->function overriding]
+overrding -> inheritence  parent class->child class
+depends on which class's obj, acc.to it function will call
+-vurtual functions: member function 
+write in base call by adding vurtual keyword first
+then in base class same i.e void hello()  but do not add virtual word in derived class
+so chikd c1.hello()  will iverride parent vir func
+
+
+----
+
+**constructor** only called once at obj creation 
+no return type 
+same as class name 
+memory allocation happens when constructor called
+
+1 parameterized
+2 non parameterized
+3 copied constructor
+
+----
+** Shallow & Deep Copy **
+- an obj copies all mombers vals from one obj to another
+- not only copies member vals but also for dynamic memory
+-> here shallow copy do problem if any var in heap 
+as address in shallow copy is same 
+
+
+--->stack memory for creating vars at compile time 
+now if i wrote 
+
+
+new int[5]  it will create at heap 
