@@ -1,0 +1,10 @@
+Access Modifiers:
+
+- private [by default]
+
+- public
+
+- protected[inheritence,want property
+   inside class and derived class]
+--------
+setter and getter functions [in order to set get priavte  vals]
