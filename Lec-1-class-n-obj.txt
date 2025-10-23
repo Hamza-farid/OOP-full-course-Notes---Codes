@@ -1,0 +1,15 @@
+**Classe & Object**:
+
+- objects are entities in real world
+- class is like blueprint of these entities   
+class better for re use the code instead of creating to much vars
+i.e blueprint of toyota from which it can make car 1 car 2 etc
+
+i.e 2 
+system of college
+->storing teacher vals
+1-name 2-dept 3-sunject 4-salary  [properties]
+change_in_department()        [Method]
+
+---> teacher [obj]
+
